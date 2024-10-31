@@ -1,0 +1,190 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /**
+ * Tabs
+ */
+.pmpfb-tab {
+  display: none;
+}
+.pmpfb-tab.is-active {
+  display: block;
+}
+.pmpfb-tabs .nav-tab.is-active{
+  background: #fff
+}
+.pmpfb-tab__content {
+}
+/**
+ * Tabs no-js fallback
+ */
+.pmpfb-tabs.no-js .pmpfb-tabs-nav {
+  display: none;
+}
+.pmpfb-tabs.no-js .pmpfb-tab {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+.pmpfb-tabs.no-js .pmpfb-tab:last-child {
+  margin-bottom: 0;
+}
+
+
+.frmb-control .icon-autocomplete,.frmb-control .icon-button,.frmb-control .icon-number{
+  display: none
+}
+
+.cb-wrap{
+  background: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.stage-wrap{
+  padding-top: 30px;  
+  padding-right: 2%;
+}
+
+#pmpfb-form-fields .stage-wrap li{
+  border: 1px dashed #c4d0dc;
+  padding: 2px 6px;
+}
+#pmpfb-form-fields .stage-wrap .paragraph-field p{
+	font-style: normal;
+}
+#pmpfb-form-fields .cb-wrap li{
+  width: 84%;
+  /*display: inline-block;*/
+  margin-right: 8%;
+  margin-left: 8%;
+  padding: 12px 10px;
+  box-shadow: inset 0 0 0 1px rgba(197, 197, 197, 0.44);
+  /*margin-bottom: 3.5% !important;*/
+}
+#pmpfb-form-fields .cb-wrap >.form-actions{
+  display: none
+}
+
+#pmpfb-form .number-field .prev-holder,
+#pmpfb-form .checkbox-field .prev-holder,
+#pmpfb-form .checkbox-field .option-actions a,
+#pmpfb-form .radio-group-field .prev-holder,
+#pmpfb-form .select-field .prev-holder,
+#pmpfb-form .date-field .prev-holder,
+#pmpfb-form .text-field .prev-holder,
+#pmpfb-form .textarea-field .prev-holder{
+/*#pmpfb-form div.fb-select[class$="-preview"] .radio-group{*/
+  display: none !important
+}
+#pmpfb-form li.checkbox-field .field-label{
+  display: block;
+}
+#pmpfb-form .number-field{
+  padding: 0px 6px
+}
+#pmpfb-form .number-field label{
+  text-transform: uppercase;
+  font-size: 13px !important;
+  letter-spacing: 1px;
+}
+#pmpfb-form .number-field .field-actions{
+  display: none !important;
+}
+#pmpfb-form .number-field{
+  pointer-events: none !important;
+  /*background: hsla(0,0%,100%,.6) !important*/
+  background: rgba(35, 40, 45, 0.04) !important
+}
+#pmpfb-form li.hidden-field{
+	display: block;
+  background: #fff
+}
+.form-wrap.form-builder .frmb .sortable-options .option-selected{
+  width: unset !important
+}
+#pmpfb-form .available-roles input {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 15px;
+}
+#pmpfb-form .available-roles label:first-child input{
+  margin-left: 0
+}
+#pmpfb-form .postbox{
+  width: 70%;
+}
+#pmpfb-form .form-table{
+  width: 70%;
+}
+#pmpfb-form .form-table th{
+  width: 150px;
+}
+
+
+
+
+/*Miscellaneous*/
+
+.pmpfb-button, .pmpfb-button:hover, .pmpfb-button:visited,
+.button.pmpfb-button, .button.pmpfb-button:hover, .button.pmpfb-button:visited {
+  background: white;
+  border-color: #c8d7e1;
+  border-style: solid;
+  border-width: 1px 1px 2px;
+  color: #2e4453;
+  cursor: pointer;
+  display: inline-block;
+  height: unset;
+  margin: 0;
+  outline: 0;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 21px;
+  border-radius: 4px;
+  padding: 7px 14px 9px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.pmpfb-button.button-primary, .pmpfb-button.button-primary:hover, .pmpfb-button.button-primary:visited {
+  background: #00aadc;
+  border-color: #0087be;
+  color: white;
+}
+.pmpfb-button:active {
+  border-width: 2px 1px 1px;
+}
+.pmpfb-button:hover {
+  border-color: #a8bece;
+}
+.pmpfb-button.button-primary:hover, .pmpfb-button.button-primary:focus {
+    border-color: #005082;
+}
+div.disabled{
+  pointer-events: none;
+  /* for "disabled" effect */
+  opacity: 0.5;
+  background: #CCC;
+}
+.icon-checkbox,.icon-select,.icon-date,.icon-file,.icon-header,.icon-paragraph{
+  pointer-events: none;
+  opacity: 0.5;
+  background: #CCC; 
+}
+.pmpfb-button.button-primary:hover {
+  border-color: #005082;
+}
+.pmpfb-upgrade a{
+  color: #6495ed;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left:5px;
+  padding-right:5px
+}
